@@ -1,0 +1,6 @@
+phonenumbers
+requests
+beautifulsoup4
+python-whois
+googlesearch-python
+lxml
