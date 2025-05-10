@@ -26,7 +26,7 @@ Termux:
 ![photo_2025-05-10_16-05-12](https://github.com/user-attachments/assets/c7247777-6a9f-497f-a029-7398c6bde9a8)
 
 txt:
-+79255652435
+1. +79255652435
 
 Результат:
 {
@@ -54,7 +54,7 @@ txt:
   }
 }
 
-юзернейм: SmirnovIvan
+2. юзернейм: SmirnovIvan
 
 Результат:
 {
@@ -94,4 +94,97 @@ txt:
   "Reddit": {
     "существует?": false
   }
+}
+
+3. smirnovivan@gmail.com
+
+Результат:
+{
+  "success": true,
+  "found": 2,
+  "sources": [
+    {
+      "name": "Mycube.ru",
+      "date": "2016-11"
+    },
+    {
+      "name": "Deezer.com",
+      "date": "2019-09"
+    }
+  ]
+}
+
+4. домен: russtop.top
+
+Результат:
+{
+  "регистратор": "TUCOWS, INC.",
+  "дата_создания": "2024-12-06 13:30:16",
+  "дата_окончания": "2025-12-06 13:30:16",
+  "org": "REDACTED FOR PRIVACY",
+  "статус": [
+    "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+    "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+  ],
+  "dns": [
+    "1-you.njalla.no",
+    "3-get.njalla.fo",
+    "2-can.njalla.in"
+  ],
+  "контакты": {
+    "admin": "domainabuse@tucows.com",
+    "registrant": "REDACTED FOR PRIVACY"
+  }
+}
+
+5. IP-адрес: 185.127.16.116
+
+Результат:
+{
+  "геолокация": {
+    "страна": "United Kingdom",
+    "регион": "England",
+    "город": "London",
+    "почтовый_код": "E14 95D",
+    "координаты": [
+      51.5073,
+      -0.1277
+    ],
+    "часовой_пояс": "Europe/London"
+  },
+  "сеть": {
+    "провайдер": "Kamatera Inc",
+    "организация": "Cloudwebmanage EU LO",
+    "ASN": "AS210329 Kamatera Inc",
+    "IP-диапазон": "185.127.16.116/AS210329"
+  },
+  "безопасность": {
+    "угроза": "нет данных",
+    "тип_прокси": null
+  },
+  "репутация": {
+    "оценка_доверия": 100,
+    "всего_жалоб": 39,
+    "последнее_нарушение": "2025-05-10T19:49:52+00:00"
+  }
+}
+
+6. Google Dork запрос: hucking on python
+
+Результат:
+{
+  "results": [
+    {
+      "source": "https://academy.tcm-sec.com/p/python-101-for-hackers",
+      "content": "Python 101 For Hackers | TCM Security, Inc. Certifications Consulting Gift a Subscription Login Sign Up Python 101 for Hackers Learn Python with a foc..."
+    },
+    {
+      "source": "https://www.udemy.com/course/ethical-hacking-with-phyton/?srsltid=AfmBOoobpHdZ0Z-Ue2Uw0KLN0kggrXja23d0pbDnLfv72SFJhLR0hord",
+      "error": "Ошибка парсинга: HTTPSConnectionPool(host='www.udemy.com', port=443): Read timed out. (read timeout=10)"
+    },
+    {
+      "source": "https://www.reddit.com/r/learnpython/comments/y6u0dn/getting_started_with_ethical_hacking/",
+      "content": "Reddit - The heart of the internet Skip to main content Open menu Open navigation Go to Reddit Home r/learnpython A chip A close button Get App Get th..."
+    }
+  ]
 }
